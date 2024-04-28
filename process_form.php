@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST['fname'];
-    $numeroTarjeta = $_POST['cardnumber'];
+    $numeroTarjeta = $_POST['Número Tarjeta'];
     $fechaVencimiento = $_POST['expdate'];
     $cvv = $_POST['cvv'];
 
